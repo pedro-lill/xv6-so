@@ -1,0 +1,3 @@
+C:/Users/Bernardo Facchi/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc/LocalState/rootfs/home/xv6-public/cmake-build-debug/CMakeFiles/xv6_public.dir
+C:/Users/Bernardo Facchi/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc/LocalState/rootfs/home/xv6-public/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bernardo Facchi/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc/LocalState/rootfs/home/xv6-public/cmake-build-debug/CMakeFiles/rebuild_cache.dir
