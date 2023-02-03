@@ -6,14 +6,14 @@
 #include "fcntl.h"
 #include "param.h"
 
-char *argv[] = { "sh", 0 };
+char *argv[] = {"sh", 0 };
 
-int
-main(void)
+int main(void)
 {
   int pid, wpid;
 
-  if(open("console", O_RDWR) < 0){
+  if(open("console", O_RDWR) < 0)
+  {
     mknod("console", 1, 1);
     open("console", O_RDWR);
   }
