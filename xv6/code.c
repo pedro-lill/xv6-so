@@ -11,7 +11,7 @@ Spected result: Process with most tickets finishes first, then second most, and 
 
 int main(int argc, char *argv[])
 {
-    int noTickets = 10;
+    int noTickets = 20;
     int biggestPID = 0;
     if (argc > 1)
         noTickets = atoi(argv[1]);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
         else if (i == P - 1)
             biggestPID = pid;
 
-        noTickets += 10;
+        noTickets *= 2;
     }
     for (int i = 0; i < P; i++)
         wait();

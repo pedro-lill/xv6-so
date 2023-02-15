@@ -325,6 +325,7 @@ wait(void)
 //  - swtch to start running that process
 //  - eventually that process transfers control
 //      via swtch back to the scheduler.
+// lottery scheduler
 void schedulera(void) {
   struct proc *p;
   struct cpu *c = mycpu();
@@ -376,6 +377,7 @@ void schedulera(void) {
   }
 }
 
+// stride scheduler
 void scheduler(void) {
   struct proc *p;
   struct cpu *c = mycpu();

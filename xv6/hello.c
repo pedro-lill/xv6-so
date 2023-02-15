@@ -2,7 +2,7 @@
 #include "stat.h"
 #include "user.h"
 
-#define N 100
+#define N 1000
 #define SIZE 900
 
 int isSorted(int *array)
@@ -16,9 +16,9 @@ int isSorted(int *array)
 
 void swap(int *a, int *b)
 {
-    *a = *a ^ *b;
-    *b = *a ^ *b;
-    *a = *a ^ *b;
+     int temp = *a;
+     *a = *b;
+     *b = temp;
 }
 
 void initializeArray(int *array)
