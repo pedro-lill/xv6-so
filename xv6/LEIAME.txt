@@ -1,0 +1,17 @@
+﻿Trabalho de Sistemas Operacionais
+Alunos : Pedro Manfio Lill, Thiago, Vinicius
+Começamos chamando o xv6 através do comando make qemu.
+dentro do xv6 executamos o comando code
+Então ele usa o escalonador para definir a distribuição das fatias de cpu para cada processo. 
+Arquivo de teste: code.c
+
+
+teste 1 com lottery scheduling
+  
+  
+  
+  
+
+
+
+testes com stride scheduling

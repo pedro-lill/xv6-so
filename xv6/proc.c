@@ -326,7 +326,7 @@ wait(void)
 //  - eventually that process transfers control
 //      via swtch back to the scheduler.
 // lottery scheduler
-void schedulera(void) {
+void lotteryscheduler(void) {
   struct proc *p;
   struct cpu *c = mycpu();
   c->proc = 0;
@@ -338,6 +338,7 @@ void schedulera(void) {
     // Loop over process table looking for process to run.
     acquire(&ptable.lock);    // funciona como um mutex(o lock bloqueia a tabela de processos para que apenas um processo possa acessa-la por vez)
 
+    
     int totalTickets = 0;
     for(p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
         if (p->state == RUNNABLE)
